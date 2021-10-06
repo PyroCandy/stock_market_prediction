@@ -91,7 +91,7 @@ def stock_model(x):
 def main():
 	st.title("Stock Market Prediction")
 	# x = st.text_input("Enter Stock Name : ")
-	x = st.selectbox('Enter Stock Name :',('','UAA', 'AAPL', 'NKE',))
+	x = st.selectbox('Enter Stock Name :',('','UAA', 'AAPL', 'NKE','ADS','AMD'))
 	if x == '':
 		return
 	else:
